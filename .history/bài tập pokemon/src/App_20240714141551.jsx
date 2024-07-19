@@ -48,71 +48,79 @@ function App() {
       number:'#0004',
       img: img04,
       inb1:'Fire',
-      inb2:''
+
     },
     {
-      id:5,
-      name:'Charmeleon',
-      number:'#005',
-      img: img05,
-      inb1:'Fire',
-      inb2:'',
+      id:1,
+      name:'Bulbasaur',
+      number:'0001',
+      img: img01,
+      inb1:'Grass',
+      inb2:'Poison',
+      inb3:''
     },
     {
-      id:6,
-      name:'Charizard',
-      number:'#0006',
-      img: img06,
-      inb1:'Fire',
-      inb2:'Flying',
+      id:1,
+      name:'Bulbasaur',
+      number:'0001',
+      img: img01,
+      inb1:'Grass',
+      inb2:'Poison',
+      inb3:''
     },
     {
-      id:7,
-      name:'Squirtle',
-      number:'#0007',
-      img: img07,
-      inb1:'Water',
-      inb2:'',
+      id:1,
+      name:'Bulbasaur',
+      number:'0001',
+      img: img01,
+      inb1:'Grass',
+      inb2:'Poison',
+      inb3:''
     },
     {
-      id:8,
-      name:'Wartortle',
-      number:'#0008',
-      img: img08,
-      inb1:'Water',
-      inb2:'',
+      id:1,
+      name:'Bulbasaur',
+      number:'0001',
+      img: img01,
+      inb1:'Grass',
+      inb2:'Poison',
+      inb3:''
     },
     {
-      id:9,
-      name:'Blastoise',
-      number:'#0009',
-      img: img09,
-      inb1:'Water',
-      inb2:'',
+      id:1,
+      name:'Bulbasaur',
+      number:'0001',
+      img: img01,
+      inb1:'Grass',
+      inb2:'Poison',
+      inb3:''
     },
     {
-      id:10,
-      name:'Caterpie',
-      number:'#0010',
-      img: img10,
-      inb1:'Bug',
-      inb2:'',
+      id:1,
+      name:'Bulbasaur',
+      number:'0001',
+      img: img01,
+      inb1:'Grass',
+      inb2:'Poison',
+      inb3:''
     },
     {
-      id:11,
-      name:'Metapod',
-      number:'#0011',
-      img: img11,
-      inb1:'Bug',
-      inb2:'',
+      id:1,
+      name:'Bulbasaur',
+      number:'0001',
+      img: img01,
+      inb1:'Grass',
+      inb2:'Poison',
+      inb3:''
     },
     {
-      id:12,
-      name:'Butterfree',
-      number:'#0012',
-      img: img12,
-      inb1:'Bug',
-      inb2:'Flying',
+      id:1,
+      name:'Bulbasaur',
+      number:'0001',
+      img: img01,
+      inb1:'Grass',
+      inb2:'Poison',
+      inb3:''
     },
   ]
 
@@ -139,7 +147,7 @@ function App() {
       </div>
 
  
-          ))}
+))  }
       </div>
     </>
   

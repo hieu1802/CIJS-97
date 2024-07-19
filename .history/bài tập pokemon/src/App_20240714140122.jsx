@@ -18,7 +18,7 @@ function App() {
     {
       id:1,
       name:'Bulbasaur',
-      number:'#0001',
+      number:'0001',
       img: img01,
       inb1:'Grass',
       inb2:'Poison',
@@ -27,7 +27,7 @@ function App() {
     {
       id:2,
       name:'Ivysaur',
-      number:'#0002',
+      number:'0002',
       img: img02,
       inb1:'Grass',
       inb2:'Poison',
@@ -36,7 +36,7 @@ function App() {
     {
       id:3,
       name:'Venusaur',
-      number:'#0003',
+      number:'0003',
       img: img03,
       inb1:'Grass',
       inb2:'Poison',
@@ -45,74 +45,82 @@ function App() {
     {
       id:4,
       name:'Charmander',
-      number:'#0004',
+      number:'0004',
       img: img04,
-      inb1:'Fire',
-      inb2:''
+   
+      inb3:'Fire',
     },
     {
-      id:5,
-      name:'Charmeleon',
-      number:'#005',
-      img: img05,
-      inb1:'Fire',
-      inb2:'',
+      id:1,
+      name:'Bulbasaur',
+      number:'0001',
+      img: img01,
+      inb1:'Grass',
+      inb2:'Poison',
+      inb3:''
     },
     {
-      id:6,
-      name:'Charizard',
-      number:'#0006',
-      img: img06,
-      inb1:'Fire',
-      inb2:'Flying',
+      id:1,
+      name:'Bulbasaur',
+      number:'0001',
+      img: img01,
+      inb1:'Grass',
+      inb2:'Poison',
+      inb3:''
     },
     {
-      id:7,
-      name:'Squirtle',
-      number:'#0007',
-      img: img07,
-      inb1:'Water',
-      inb2:'',
+      id:1,
+      name:'Bulbasaur',
+      number:'0001',
+      img: img01,
+      inb1:'Grass',
+      inb2:'Poison',
+      inb3:''
     },
     {
-      id:8,
-      name:'Wartortle',
-      number:'#0008',
-      img: img08,
-      inb1:'Water',
-      inb2:'',
+      id:1,
+      name:'Bulbasaur',
+      number:'0001',
+      img: img01,
+      inb1:'Grass',
+      inb2:'Poison',
+      inb3:''
     },
     {
-      id:9,
-      name:'Blastoise',
-      number:'#0009',
-      img: img09,
-      inb1:'Water',
-      inb2:'',
+      id:1,
+      name:'Bulbasaur',
+      number:'0001',
+      img: img01,
+      inb1:'Grass',
+      inb2:'Poison',
+      inb3:''
     },
     {
-      id:10,
-      name:'Caterpie',
-      number:'#0010',
-      img: img10,
-      inb1:'Bug',
-      inb2:'',
+      id:1,
+      name:'Bulbasaur',
+      number:'0001',
+      img: img01,
+      inb1:'Grass',
+      inb2:'Poison',
+      inb3:''
     },
     {
-      id:11,
-      name:'Metapod',
-      number:'#0011',
-      img: img11,
-      inb1:'Bug',
-      inb2:'',
+      id:1,
+      name:'Bulbasaur',
+      number:'0001',
+      img: img01,
+      inb1:'Grass',
+      inb2:'Poison',
+      inb3:''
     },
     {
-      id:12,
-      name:'Butterfree',
-      number:'#0012',
-      img: img12,
-      inb1:'Bug',
-      inb2:'Flying',
+      id:1,
+      name:'Bulbasaur',
+      number:'0001',
+      img: img01,
+      inb1:'Grass',
+      inb2:'Poison',
+      inb3:''
     },
   ]
 
@@ -123,9 +131,9 @@ function App() {
  
 
   return (
-    <>
-      <div className='container'>
-        {infoPokemon.map(item =>(
+    infoPokemon.map(item =>(
+      <>
+        <div className='container'>
           <div className='boxCard' onClick={() => handleButtonClick(item.name)} key={item.id}>
             <div className='imgCard'>
               <img src={item.img}/>
@@ -134,15 +142,13 @@ function App() {
             <h3>{item.name}</h3>
             <div className='atbCard'>
               <div className='atb color01'>{item.inb1}</div>
-              <div className='atb color04'>{item.inb2}</div>
+              <div className='atb color02'>{item.inb2}</div>
+              <div className='atb color03'>{item.inb3}</div>
             </div>
-      </div>
-
- 
-          ))}
-      </div>
-    </>
-  
+          </div>
+        </div>
+      </>
+    ))  
   );
 }
 
