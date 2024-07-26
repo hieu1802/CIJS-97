@@ -1,0 +1,181 @@
+/**********************RESET CSS******************************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/******************************CODE******************************************/
+.container{
+  width: 1250px;
+  height: 1009px;
+  background-color: #192026;
+  margin: auto;
+  padding: 15px 83px
+}
+
+.navbar{
+  width: 1174px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbarLogo{
+  width: 200px;
+  height: 34px;
+  margin-top: 7px;
+}
+.navbarLogo > h1{
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.07em;
+  text-align: left;
+  color: #fff;
+}
+
+.navbarPage{
+  width: 64px;
+  height: 34px;
+  margin-top: 7px;
+}
+
+.navbarPage > p{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.07em;
+  text-align: left;
+  color:#868686;
+}
+
+.navbarInput{
+  width: 374px;
+  height: 48px;
+  border-radius: 47px;
+  padding: 0;
+  border: 0;
+  background-color: #374151;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.07em;
+  text-align: left;
+  text-align: center;
+
+}
+
+.textH3{
+  width: 118px;
+  height: 36px;
+  margin-top: 30px;
+  margin-bottom: 30px
+}
+
+.textH3 > h3{
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+}
+
+.textH2{
+  width: 387px;
+  height: 25px;
+  margin-bottom: 30px;
+}
+
+.textH2 > h2{
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24.75px;
+  text-align: left;
+  color: #868686;
+}
+
+.carouset{
+  position: relative;
+  width: 1170px;
+  height: 400px;
+  border-radius: 12px;
+  display: flex;
+}
+
+.carouset > img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.carouset::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(269.96deg, rgba(29, 29, 29, 0) 0.04%, rgba(29, 29, 29, 0.8) 99.5%);
+  pointer-events: none;
+}
+
+.titleCarouset{
+  width: 571px;
+  height: 64px;
+  background-color: aliceblue;
+  margin-top: 200px;
+  z-index: 999;
+  position: absolute;
+  margin-left: 47px;
+}
+
+.titleCarouset > p{
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 64px;
+  text-align: left;
+}
