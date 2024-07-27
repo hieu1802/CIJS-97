@@ -94,10 +94,6 @@ table {
   cursor: pointer;
 }
 
-.navbarPage > p:hover{
-  color: red;
-}
-
 .navbarInput{
   width: 374px;
   height: 48px;
