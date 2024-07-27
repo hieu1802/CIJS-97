@@ -1,6 +1,6 @@
 import "./App.css";
-import MovieDetail from "./components/MovieDetail";
-import MovieList from "./components/MovieList";
+import MovieDetail from "./compes/MovieDetail";
+import MovieList from "./compes/MovieList";
 import img02 from "./img/img02.png";
 import img03 from "./img/img03.png";
 import img04 from "./img/img04.png";
