@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.todoApp {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.todoForm {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.todoInput {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.todoButton{
+  width: 100px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todoList {
+  list-style: none;
+}
+
+.todoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.deleteButton {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.clearButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todoFilter > button {
+  margin: 0 5px;
+  padding: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.todoFilter> button >.active {
+  border-bottom: 2px solid #007bff;
+}
